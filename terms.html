@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions – NoorBloom</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --rose: #d4507a;
+            --rose-light: #f7c5d8;
+            --rose-pale: #fdf0f5;
+            --rose-soft: #fae4ed;
+            --text-dark: #1a0a10;
+            --text-mid: #4a2535;
+            --text-light: #7a5065;
+            --border: #f0d0de;
+            --alert-bg: #fff8f0;
+            --alert-border: #e8914a;
+            --commitment-bg: #f0faf5;
+            --commitment-border: #2e8b57;
+            --apple-bg: #f0f4ff;
+            --apple-border: #3a5bcc;
+            --caps-bg: #1a0a10;
+            --caps-text: #fff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: linear-gradient(160deg, #fdf0f5 0%, #fff5f9 50%, #fdf0f5 100%);
+            color: var(--text-dark);
+            line-height: 1.75;
+            padding: 20px;
+        }
+
+        .page-wrapper {
+            max-width: 820px;
+            margin: 0 auto;
+        }
+
+        .doc-header {
+            background: linear-gradient(135deg, #d4507a 0%, #c03060 60%, #a01840 100%);
+            border-radius: 20px;
+            padding: 48px 40px;
+            margin-bottom: 16px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .doc-header::before {
+            content: '';
+            position: absolute;
+            top: -40px; right: -40px;
+            width: 200px; height: 200px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.07);
+        }
+        .app-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.6em;
+            color: #fff;
+            letter-spacing: 0.02em;
+            margin-bottom: 6px;
+        }
+        .doc-title {
+            font-size: 1.1em;
+            color: rgba(255,255,255,0.85);
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+        .meta-row {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .meta-badge {
+            background: rgba(255,255,255,0.18);
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 30px;
+            padding: 6px 18px;
+            font-size: 0.82em;
+            color: #fff;
+            font-weight: 500;
+        }
+
+        .content-card {
+            background: #fff;
+            border-radius: 20px;
+            padding: 48px 44px;
+            box-shadow: 0 4px 24px rgba(180,60,100,0.07);
+            margin-bottom: 16px;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.55em;
+            color: var(--rose);
+            margin-top: 44px;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--rose-light);
+        }
+        h2:first-of-type { margin-top: 0; }
+
+        h3 {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 1.1em;
+            font-weight: 600;
+            color: var(--text-mid);
+            margin-top: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: var(--text-mid);
+            margin-bottom: 14px;
+            font-size: 0.97em;
+        }
+
+        ul, ol {
+            margin-left: 24px;
+            margin-bottom: 16px;
+        }
+        li {
+            color: var(--text-mid);
+            margin-bottom: 8px;
+            font-size: 0.97em;
+        }
+
+        a { color: var(--rose); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .alert-box {
+            background: var(--alert-bg);
+            border-left: 4px solid var(--alert-border);
+            border-radius: 0 10px 10px 0;
+            padding: 16px 20px;
+            margin: 18px 0;
+        }
+        .alert-box strong { color: #c05010; display: block; margin-bottom: 6px; }
+
+        .commitment-box {
+            background: var(--commitment-bg);
+            border-left: 4px solid var(--commitment-border);
+            border-radius: 0 10px 10px 0;
+            padding: 16px 20px;
+            margin: 18px 0;
+        }
+        .commitment-box strong { color: #1a6b3a; display: block; margin-bottom: 6px; }
+
+        /* Apple Section Special Styling */
+        .apple-section {
+            background: var(--apple-bg);
+            border: 2px solid var(--apple-border);
+            border-radius: 14px;
+            padding: 28px 32px;
+            margin: 32px 0;
+        }
+        .apple-section h2 {
+            color: var(--apple-border);
+            border-bottom-color: #c0ccee;
+            margin-top: 0;
+        }
+        .apple-section h3 { color: #2a4aaa; }
+        .apple-section p, .apple-section li { color: #2a3860; }
+        .apple-badge {
+            display: inline-block;
+            background: #3a5bcc;
+            color: #fff;
+            font-size: 0.75em;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 20px;
+            margin-left: 8px;
+            vertical-align: middle;
+            letter-spacing: 0.05em;
+        }
+
+        /* CAPS/Uppercase legal sections */
+        .caps-block {
+            background: var(--caps-bg);
+            color: var(--caps-text);
+            border-radius: 10px;
+            padding: 20px 24px;
+            margin: 18px 0;
+            font-size: 0.88em;
+            font-weight: 600;
+            line-height: 1.6;
+        }
+
+        /* Acceptance box */
+        .acceptance-box {
+            background: linear-gradient(135deg, #e8f5e9, #f0faf5);
+            border: 2px solid #2e8b57;
+            border-radius: 14px;
+            padding: 24px 28px;
+            text-align: center;
+            margin-top: 32px;
+        }
+        .acceptance-box p {
+            font-weight: 600;
+            color: #1a5c35;
+            font-size: 0.95em;
+        }
+
+        .contact-box {
+            background: var(--rose-pale);
+            border: 1px solid var(--rose-light);
+            border-radius: 14px;
+            padding: 24px 28px;
+            margin-top: 20px;
+        }
+        .contact-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin-bottom: 8px;
+            font-size: 0.93em;
+            color: var(--text-mid);
+        }
+        .contact-label { font-weight: 600; min-width: 90px; }
+
+        .toc {
+            background: var(--rose-pale);
+            border-radius: 14px;
+            padding: 22px 28px;
+            margin-bottom: 32px;
+        }
+        .toc h3 { color: var(--rose); margin-top: 0; margin-bottom: 14px; font-family: 'Playfair Display', serif; }
+        .toc ol { margin-left: 18px; }
+        .toc li { margin-bottom: 5px; font-size: 0.9em; }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 18px 0;
+            font-size: 0.9em;
+        }
+        .data-table th {
+            background: var(--rose-soft);
+            color: var(--rose);
+            font-weight: 600;
+            padding: 12px 14px;
+            text-align: left;
+            border: 1px solid var(--border);
+        }
+        .data-table td {
+            padding: 11px 14px;
+            border: 1px solid var(--border);
+            color: var(--text-mid);
+            vertical-align: top;
+        }
+        .data-table tr:nth-child(even) td { background: var(--rose-pale); }
+
+        .doc-footer {
+            text-align: center;
+            padding: 28px;
+            color: var(--text-light);
+            font-size: 0.85em;
+        }
+        .doc-footer a { color: var(--rose); }
+
+        @media (max-width: 640px) {
+            .content-card { padding: 28px 20px; }
+            .doc-header { padding: 36px 24px; }
+            .app-name { font-size: 2em; }
+            .apple-section { padding: 22px 18px; }
+        }
+    </style>
+</head>
+<body>
+<div class="page-wrapper">
+
+    <div class="doc-header">
+        <div class="app-name">NoorBloom</div>
+        <div class="doc-title">Terms &amp; Conditions</div>
+        <div class="meta-row">
+            <span class="meta-badge">Effective: February 13, 2026</span>
+            <span class="meta-badge">Version 2.0</span>
+            <span class="meta-badge">Includes Apple iOS EULA</span>
+        </div>
+    </div>
+
+    <div class="content-card">
+
+        <div class="toc">
+            <h3>Contents</h3>
+            <ol>
+                <li><a href="#acceptance">Acceptance of Terms</a></li>
+                <li><a href="#account">Account Registration &amp; Security</a></li>
+                <li><a href="#license">License Grant &amp; Restrictions</a></li>
+                <li><a href="#islamic">Islamic Content &amp; Religious Disclaimer</a></li>
+                <li><a href="#mental">Mental Health &amp; AI Disclaimer</a></li>
+                <li><a href="#ugc">User-Generated Content</a></li>
+                <li><a href="#ip">Intellectual Property</a></li>
+                <li><a href="#subscriptions">Subscriptions &amp; Payments</a></li>
+                <li><a href="#privacy">Privacy</a></li>
+                <li><a href="#prohibited">Prohibited Conduct</a></li>
+                <li><a href="#warranty">Disclaimer of Warranties</a></li>
+                <li><a href="#liability">Limitation of Liability</a></li>
+                <li><a href="#indemnity">Indemnification</a></li>
+                <li><a href="#governing">Governing Law &amp; Disputes</a></li>
+                <li><a href="#termination">Termination</a></li>
+                <li><a href="#geo">Geographic Restrictions</a></li>
+                <li><a href="#changes">Changes to These Terms</a></li>
+                <li><a href="#general">General Provisions</a></li>
+                <li><a href="#contact-terms">Contact</a></li>
+                <li><a href="#apple-eula">Section 20 — Apple iOS Minimum Terms (Required EULA)</a></li>
+            </ol>
+        </div>
+
+        <p>Welcome to NoorBloom. These Terms and Conditions ("Terms") constitute a legally binding agreement between you ("User", "you", or "your") and the operator of NoorBloom ("NoorBloom", "we", "us", or "our") governing your access to and use of the NoorBloom mobile application and all associated services (collectively, the "App" or "Service").</p>
+
+        <p>By downloading, installing, or using NoorBloom, you confirm that you have read, understood, and agree to be bound by these Terms and our Privacy Policy. If you do not agree, do not use the App.</p>
+
+        <!-- SECTION 1 -->
+        <h2 id="acceptance">1. Acceptance of Terms</h2>
+        <p>By creating an account or using NoorBloom, you confirm that:</p>
+        <ul>
+            <li>You are at least <strong>13 years old</strong>;</li>
+            <li>If you are under 18, you have obtained your parent's or legal guardian's permission to use the App;</li>
+            <li>You have the legal capacity to enter into this agreement;</li>
+            <li>You will comply with all applicable local, national, and international laws and regulations;</li>
+            <li>The information you provide is accurate and complete.</li>
+        </ul>
+
+        <!-- SECTION 2 -->
+        <h2 id="account">2. Account Registration &amp; Security</h2>
+
+        <h3>2.1 Registration Methods</h3>
+        <p>You may create an account using your email address and password, Sign In with Apple, or Sign In with Google.</p>
+
+        <h3>2.2 Account Responsibility</h3>
+        <p>You are solely responsible for (a) maintaining the confidentiality of your login credentials; (b) all activity that occurs under your account; and (c) ensuring that anyone who uses your account complies with these Terms. You must notify us immediately at <a href="mailto:security@noorbloom.app">security@noorbloom.app</a> of any unauthorised use of your account.</p>
+
+        <h3>2.3 Accurate Information</h3>
+        <p>You agree to provide accurate, current, and complete information during registration and to update it as necessary.</p>
+
+        <h3>2.4 Account Termination by You</h3>
+        <p>You may delete your account at any time via Profile → Settings → Delete Account. Deletion of your account is effective immediately for access purposes; data is deleted within 30 days per our Privacy Policy.</p>
+
+        <!-- SECTION 3 -->
+        <h2 id="license">3. License Grant &amp; Restrictions</h2>
+
+        <h3>3.1 License Grant</h3>
+        <p>Subject to your compliance with these Terms, we grant you a <strong>limited, non-exclusive, non-transferable, revocable license</strong> to download and use the App on an Apple-branded device that you own or control, solely for your personal, non-commercial, spiritual purposes.</p>
+
+        <h3>3.2 License Restrictions</h3>
+        <p>You may not, and you may not permit others to:</p>
+        <ul>
+            <li>Sublicense, sell, rent, lease, transfer, or assign rights in the App;</li>
+            <li>Copy, reproduce, distribute, or publicly display App content except as permitted herein;</li>
+            <li>Reverse engineer, decompile, disassemble, or attempt to derive the source code of the App;</li>
+            <li>Modify, adapt, translate, or create derivative works based on the App;</li>
+            <li>Remove, obscure, or alter any proprietary rights notices (including copyright and trademark notices);</li>
+            <li>Use the App to develop a competing product or service;</li>
+            <li>Scrape, extract, or systematically download App content;</li>
+            <li>Use the App in any manner not expressly authorised by these Terms.</li>
+        </ul>
+
+        <!-- SECTION 4 -->
+        <h2 id="islamic">4. Islamic Content &amp; Religious Disclaimer</h2>
+
+        <h3>4.1 Educational Purpose</h3>
+        <p>NoorBloom provides Islamic content — including duas (supplications), Quranic verses and translations, Hadith references, prayer times, and spiritual guidance — for <strong>educational, devotional, and personal spiritual growth purposes only</strong>.</p>
+
+        <h3>4.2 Not a Religious Authority</h3>
+        <p>NoorBloom is a technology product. We are not Islamic scholars, muftis, or religious authorities. <strong>Nothing in the App constitutes a religious ruling (fatwa), authoritative Islamic legal opinion, or binding religious guidance.</strong> For specific theological questions, religious rulings, or matters of Islamic jurisprudence, you must consult qualified scholars, imams, or recognised religious institutions.</p>
+
+        <h3>4.3 Diversity of Scholarly Opinion</h3>
+        <p>Islam encompasses diverse schools of thought, jurisprudential traditions, and scholarly opinions. Content within NoorBloom may not represent all interpretations. We strive for accuracy and work with knowledgeable advisors, but we cannot guarantee that all content reflects every valid scholarly position. If you believe any content is inaccurate, please report it to <a href="mailto:content@noorbloom.app">content@noorbloom.app</a>.</p>
+
+        <h3>4.4 AI-Generated Duas</h3>
+        <p>Duas generated by the App are personalised suggestions created by artificial intelligence drawing on established Islamic supplication traditions. They are offered as a spiritual tool, not a substitute for authentic scholarly duas. Users should exercise their own religious judgment and seek scholarly guidance where needed.</p>
+
+        <h3>4.5 Religious Sensitivity</h3>
+        <p>Content in NoorBloom is designed to be respectful of Islamic faith and practice. However, given the diversity of Muslim communities globally, some content may elicit varying responses. We are committed to continuous improvement and welcome respectful feedback.</p>
+
+        <!-- SECTION 5 -->
+        <h2 id="mental">5. Mental Health &amp; AI Disclaimer</h2>
+
+        <h3>5.1 Not Therapy or Medical Advice</h3>
+        <p>NoorBloom is a spiritual wellness app. <strong>It is not a medical device, mental health treatment, therapy, counselling service, or psychiatric service.</strong> The App does not diagnose, treat, cure, or prevent any mental health condition, psychological disorder, or medical condition. The Reflections Diary, Affirmations, and AI reflection features are spiritual tools — they are not substitutes for professional psychological or psychiatric care.</p>
+
+        <h3>5.2 Crisis Resources — Please Read</h3>
+        <div class="alert-box">
+            <strong>⚠️ If you are in crisis, please reach out immediately</strong>
+            NoorBloom cannot respond to mental health emergencies. If you are experiencing suicidal thoughts, thoughts of self-harm, a mental health crisis, or acute psychological distress, please contact one of the following immediately:
+        </div>
+        <ul>
+            <li><strong>Turkey:</strong> Crisis Line 182 (Suicide Prevention) · Emergency 112</li>
+            <li><strong>USA:</strong> 988 Suicide &amp; Crisis Lifeline — call or text 988 · Crisis Text Line: text HOME to 741741</li>
+            <li><strong>UK:</strong> Samaritans: 116 123 (free, 24/7) · Emergency: 999</li>
+            <li><strong>International:</strong> <a href="https://www.befrienders.org" target="_blank">www.befrienders.org</a> · <a href="https://findahelpline.com" target="_blank">findahelpline.com</a></li>
+        </ul>
+        <p>Do not delay seeking professional help because of content in this app. If you believe you or someone you know is in immediate danger, call your local emergency services immediately.</p>
+
+        <h3>5.3 Mood Features — Important Context</h3>
+        <p>The Affirmations feature invites you to select an emotional state (such as "Happy", "Anxious", "Heartbroken", or "Depressed"). These selections are used solely to retrieve relevant Islamic affirmations. <strong>The App does not diagnose any condition based on mood selections.</strong> Selecting "Depressed" or "Anxious" does not constitute a clinical assessment of any kind.</p>
+        <p>If you regularly experience severe depression, anxiety, or emotional distress, we encourage you to speak with a qualified healthcare professional alongside any spiritual practice.</p>
+
+        <h3>5.4 Seek Professional Help</h3>
+        <p>Nothing in the App should cause you to delay seeking professional medical or psychological help. If you have been diagnosed with a psychiatric condition, please consult your healthcare provider before using mood-tracking or reflective features of this App.</p>
+
+        <h3>5.5 No Guarantee of Outcomes</h3>
+        <p>We make no representation or warranty that use of the App will improve your mental health, spiritual wellbeing, productivity, or any other outcome. Results vary per individual. Reliance on the App for any health outcome is at your own risk.</p>
+
+        <!-- SECTION 6 -->
+        <h2 id="ugc">6. User-Generated Content</h2>
+
+        <h3>6.1 Ownership</h3>
+        <p>You retain ownership of content you create within NoorBloom, including dua requests, affirmation preferences, and diary entries ("Your Content").</p>
+
+        <h3>6.2 License to Us</h3>
+        <p>By using the App, you grant NoorBloom a <strong>non-exclusive, royalty-free, worldwide, limited license</strong> to store, display, and process Your Content solely for the purpose of providing and improving the Service to you. We will not share, publish, or monetise Your Content without your consent.</p>
+
+        <h3>6.3 Aggregated & Anonymized Data</h3>
+        <p>We may use aggregated, anonymised, and non-personally identifiable data derived from usage patterns (not personal content) to improve the App. This data cannot be used to identify you.</p>
+
+        <h3>6.4 Content Standards</h3>
+        <p>You must not create or submit content that:</p>
+        <ul>
+            <li>Violates any applicable law or regulation;</li>
+            <li>Infringes any third party's intellectual property, privacy, or other rights;</li>
+            <li>Is abusive, threatening, harassing, defamatory, obscene, or discriminatory;</li>
+            <li>Contains viruses, malware, or harmful code;</li>
+            <li>Is blasphemous, disrespectful to Islamic faith, or designed to cause religious discord.</li>
+        </ul>
+
+        <h3>6.5 Third-Party Personal Data in Duas</h3>
+        <p>When you use the Dua for Loved Ones feature, you enter the name and personal circumstances of another individual (such as "Zehra — exam motivation"). This constitutes the processing of a third party's personal data. By submitting another person's information, you represent and warrant that:</p>
+        <ul>
+            <li>You are that person's family member, close friend, or caregiver, or you have obtained their explicit permission to share their personal information with this App;</li>
+            <li>The information you enter is limited to what is necessary to generate a dua (name and a brief context);</li>
+            <li>You will not enter sensitive personal data about another person (such as medical diagnoses, financial circumstances, or relationship details) beyond what is appropriate for a prayer request;</li>
+            <li>You accept responsibility as the data controller for that individual's personal information in accordance with applicable privacy law.</li>
+        </ul>
+        <p>We process third-party personal data entered in this feature solely and transiently to generate the requested dua. This data is <strong>not stored, retained, or linked to any user profile</strong> after generation. We strongly recommend that you use only a first name and a brief, general context (e.g., "health", "exams", "finding peace") — you do not need to provide detailed personal information to receive a meaningful dua.</p>
+        <p>In accordance with an in-app notice displayed before first use of this feature, you acknowledge this responsibility each time you submit a dua request for another person.</p>
+
+        <!-- SECTION 7 -->
+        <h2 id="ip">7. Intellectual Property Rights</h2>
+
+        <h3>7.1 Our Content</h3>
+        <p>All content, design, features, software, trademarks, logos, and compilations within NoorBloom (excluding Your Content) are owned by NoorBloom or our licensors and protected by copyright, trademark, and other intellectual property laws. Nothing in these Terms transfers any intellectual property rights to you.</p>
+
+        <h3>7.2 Islamic Heritage Texts</h3>
+        <p>Quranic text, Hadith, and traditional Islamic supplications are part of shared Islamic heritage. Our <em>translations, compilations, presentations, and arrangements</em> of such texts are our intellectual property or used under appropriate licence.</p>
+
+        <h3>7.3 Feedback</h3>
+        <p>If you provide feedback, suggestions, or ideas about the App, you grant us an irrevocable, royalty-free, worldwide licence to use that feedback without obligation to you.</p>
+
+        <!-- SECTION 8 -->
+        <h2 id="subscriptions">8. Subscriptions &amp; Payments</h2>
+
+        <h3>8.1 Free and Premium Tiers</h3>
+        <p>NoorBloom offers free features available to all users and a paid NoorBloom Premium subscription with enhanced features including unlimited AI-generated duas, expanded affirmations library, and additional spiritual content.</p>
+
+        <h3>8.2 Single Subscription Group</h3>
+        <p>All NoorBloom Premium subscription tiers (monthly, annual, or any future plans) are part of a <strong>single subscription group</strong>. A user may hold only one active NoorBloom Premium subscription at any time. Subscription entitlements may not be stacked or combined.</p>
+
+        <h3>8.3 Pricing &amp; Billing</h3>
+        <ul>
+            <li>Prices are displayed clearly in the App before purchase.</li>
+            <li>All payments are processed by <strong>Apple's App Store</strong>. Your purchase is charged to your Apple Account at confirmation.</li>
+            <li>Subscriptions automatically renew at the end of each subscription period unless cancelled in accordance with Section 8.4.</li>
+            <li>The renewal price is the same as the original price unless you are notified otherwise in advance.</li>
+        </ul>
+
+        <h3>8.4 Cancellation</h3>
+        <p>You must cancel your subscription <strong>at least 24 hours before the end of your current subscription period</strong> to avoid being charged for the next period. To cancel:</p>
+        <ul>
+            <li>Go to your iPhone/iPad <strong>Settings</strong> → <strong>[Your Name]</strong> → <strong>Subscriptions</strong></li>
+            <li>Find NoorBloom and tap <strong>Cancel Subscription</strong></li>
+        </ul>
+        <p>Upon cancellation, you retain access to Premium features until the end of the paid period. Cancellation does not entitle you to a refund for the current period.</p>
+
+        <h3>8.5 Free Trials &amp; Promotional Offers</h3>
+        <p>We may offer free trials or promotional pricing from time to time. Free trial eligibility is limited to users who have not previously subscribed to NoorBloom Premium or redeemed a free trial offer. At the end of a free trial, your subscription will automatically convert to a paid subscription unless cancelled at least 24 hours before the trial ends. You will be clearly informed of the post-trial price before beginning a trial.</p>
+
+        <h3>8.6 Refund Policy</h3>
+        <p>All purchases through the App Store are governed by <strong>Apple's refund policy</strong>. To request a refund, go to <a href="https://reportaproblem.apple.com" target="_blank">reportaproblem.apple.com</a>. We cannot process refunds directly, as all payments are handled by Apple.</p>
+
+        <h3>8.7 Price Changes</h3>
+        <p>We reserve the right to change subscription prices. Price changes will not affect your current subscription period. You will receive advance notice of any price change, and if you do not agree, you may cancel before the next renewal.</p>
+
+        <!-- SECTION 9 -->
+        <h2 id="privacy">9. Privacy</h2>
+        <p>Your use of NoorBloom is also governed by our <a href="privacy.html">Privacy Policy</a>, which is incorporated into these Terms by reference. By using the App, you consent to our data practices as described therein.</p>
+
+        <div class="commitment-box">
+            <strong>✓ Key Privacy Commitments</strong>
+            We do not sell your data · We do not use your data for targeted advertising · Diary entries stay on your device · Your religious practice data is treated as sensitive · You can delete your account and all data at any time
+        </div>
+
+        <!-- SECTION 10 -->
+        <h2 id="prohibited">10. Prohibited Conduct</h2>
+        <p>You agree not to:</p>
+        <ul>
+            <li>Use the App for any illegal, fraudulent, or unauthorized purpose;</li>
+            <li>Attempt to gain unauthorized access to any part of the App or its related systems;</li>
+            <li>Introduce viruses, malware, or other harmful components;</li>
+            <li>Use automated tools (bots, scrapers, crawlers) to access App content;</li>
+            <li>Impersonate NoorBloom, its team, or any other person;</li>
+            <li>Use the App to transmit spam or unsolicited communications;</li>
+            <li>Interfere with the App's operation or other users' use of the App;</li>
+            <li>Circumvent any security or access control measures;</li>
+            <li>Use the App in a way that harms NoorBloom's reputation;</li>
+            <li>Violate these Terms or any applicable law.</li>
+        </ul>
+
+        <!-- SECTION 11 -->
+        <h2 id="warranty">11. Disclaimer of Warranties</h2>
+        <div class="caps-block">
+            THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, NOORBLOOM DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO: IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT; WARRANTIES THAT THE APP WILL BE UNINTERRUPTED, ERROR-FREE, OR SECURE; WARRANTIES REGARDING THE ACCURACY, COMPLETENESS, OR RELIABILITY OF ANY CONTENT; AND WARRANTIES REGARDING RESULTS OF USE.
+        </div>
+        <p>We do not warrant that the App will work on all devices, operating system versions, or network conditions. We do not warrant that Islamic content is comprehensive or represents all scholarly opinions. We make no warranty that the App will meet your spiritual, emotional, or religious needs.</p>
+
+        <!-- SECTION 12 -->
+        <h2 id="liability">12. Limitation of Liability</h2>
+        <div class="caps-block">
+            TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, NOORBLOOM AND ITS OFFICERS, DIRECTORS, EMPLOYEES, AND AFFILIATES SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM OR IN CONNECTION WITH YOUR USE OF OR INABILITY TO USE THE APP, INCLUDING BUT NOT LIMITED TO: LOSS OF DATA, LOSS OF REVENUE OR PROFITS, BUSINESS INTERRUPTION, LOSS OF RELIGIOUS, SPIRITUAL, OR EMOTIONAL BENEFIT, OR HARM ARISING FROM RELIANCE ON AI-GENERATED CONTENT.
+        </div>
+        <p>Our total aggregate liability to you for any and all claims arising from or relating to the App shall not exceed the greater of: (a) the amount you paid to NoorBloom (not Apple) in the 12 months preceding the claim, or (b) USD $100.</p>
+        <p>Some jurisdictions do not permit the exclusion of certain warranties or limitation of liability. In those jurisdictions, our liability is limited to the maximum extent permitted by law.</p>
+
+        <!-- SECTION 13 -->
+        <h2 id="indemnity">13. Indemnification</h2>
+        <p>To the fullest extent permitted by law, you agree to defend, indemnify, and hold harmless NoorBloom and its affiliates, officers, directors, employees, and agents from and against any claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising from: (a) your use of the App; (b) your violation of these Terms; (c) your violation of any third party's rights, including intellectual property or privacy rights; (d) content you submit that causes harm; or (e) your violation of applicable law.</p>
+
+        <!-- SECTION 14 -->
+        <h2 id="governing">14. Governing Law &amp; Dispute Resolution</h2>
+
+        <h3>14.1 Governing Law</h3>
+        <p>These Terms are governed by and construed in accordance with the laws of Turkey, without regard to conflict of law principles. Nothing in these Terms limits or excludes any rights you have under mandatory consumer protection laws applicable in your country of residence that cannot be excluded by contract.</p>
+
+        <h3>14.2 Informal Resolution First</h3>
+        <p>Before initiating any formal dispute, we strongly encourage you to contact us at <a href="mailto:legal@noorbloom.app">legal@noorbloom.app</a> to seek an informal resolution. We aim to respond within 14 business days. Most issues can be resolved quickly and without formal proceedings.</p>
+
+        <h3>14.3 Formal Dispute Resolution</h3>
+        <p>If informal resolution is not achieved within 30 days, any dispute, claim, or controversy arising from or relating to these Terms or your use of the App shall be subject to the exclusive jurisdiction of the competent courts of Istanbul, Turkey, unless mandatory law in your country of residence requires otherwise.</p>
+
+        <h3>14.4 Class Action Waiver</h3>
+        <p>To the extent permitted by applicable law, you waive any right to participate in a class action lawsuit or class-wide arbitration against NoorBloom. All claims must be brought on an individual basis.</p>
+
+        <h3>14.5 EU Online Dispute Resolution</h3>
+        <p>If you are a consumer resident in the European Union, you may access the European Commission's Online Dispute Resolution platform at <a href="https://ec.europa.eu/consumers/odr" target="_blank">https://ec.europa.eu/consumers/odr</a>. Note that we are not obligated to use this platform but will consider it in good faith.</p>
+
+        <h3>14.6 Consumer Rights Preserved</h3>
+        <p>Users in the EEA, UK, Australia, and other jurisdictions with mandatory consumer protection legislation retain all statutory rights provided under applicable law. Nothing in these Terms operates to exclude or limit those protections.</p>
+
+        <!-- SECTION 15 -->
+        <h2 id="termination">15. Termination</h2>
+
+        <h3>15.1 Termination by You</h3>
+        <p>You may stop using NoorBloom and delete your account at any time. Deleting your account terminates these Terms prospectively, subject to any provisions that survive termination.</p>
+
+        <h3>15.2 Termination by Us</h3>
+        <p>We may suspend or terminate your access to the App immediately and without prior notice if: (a) you violate these Terms; (b) you engage in conduct that is illegal, fraudulent, or harmful; (c) your account has been compromised; (d) we are required to by law; or (e) we cease operations.</p>
+
+        <h3>15.3 Effect of Termination</h3>
+        <p>Upon termination, your license to use the App ceases. Provisions of these Terms that by their nature should survive termination (including warranty disclaimers, limitations of liability, indemnification, and dispute resolution) shall survive.</p>
+
+        <!-- SECTION 16 -->
+        <h2 id="geo">16. Geographic Restrictions</h2>
+
+        <h3>16.1 Availability</h3>
+        <p>We make no representation that the App is available or appropriate for use in all jurisdictions. It is your responsibility to ensure that your use of the App is lawful in your jurisdiction.</p>
+
+        <h3>16.2 Export Controls</h3>
+        <p>You represent and warrant that: (a) you are not located in a country subject to a U.S. Government embargo or designated as a "terrorist-supporting" country; and (b) you are not listed on any U.S. Government prohibited or restricted parties list.</p>
+
+        <h3>16.3 Restriction for Users in Mainland China</h3>
+        <p>NoorBloom is not registered or approved as an application for distribution within Mainland China under applicable PRC regulations, including MIIT licensing requirements. Users located in Mainland China are not permitted to use the App, and we do not serve users whose primary location is within Mainland China. If you access the App from Mainland China, you do so at your own risk and we disclaim all liability in connection with such use.</p>
+
+        <!-- SECTION 17 -->
+        <h2 id="changes">17. Changes to These Terms</h2>
+        <p>We may update these Terms at any time. For material changes, we will provide at least 14 days' advance notice by: (a) posting an in-app notification; (b) sending an email to your registered address; or (c) both. The "Effective Date" at the top will be updated. Your continued use of the App after the effective date of changes constitutes your acceptance. If you do not agree to updated Terms, you must stop using the App and delete your account.</p>
+
+        <!-- SECTION 18 -->
+        <h2 id="general">18. General Provisions</h2>
+        <ul>
+            <li><strong>Entire Agreement:</strong> These Terms and the Privacy Policy constitute the entire agreement between you and NoorBloom regarding the App, superseding all prior agreements.</li>
+            <li><strong>Severability:</strong> If any provision is found unenforceable, it will be modified to the minimum extent necessary, and the remaining provisions remain in full force.</li>
+            <li><strong>No Waiver:</strong> Our failure to enforce any right under these Terms does not constitute a waiver of that right.</li>
+            <li><strong>Assignment:</strong> You may not assign these Terms. We may assign them to a successor entity with notice to you.</li>
+            <li><strong>Electronic Communications:</strong> You agree to receive communications from us electronically (in-app, email). Electronic communications satisfy any legal requirement for written notice.</li>
+            <li><strong>Language:</strong> The English version of these Terms is the binding version. Translations are provided for convenience only.</li>
+        </ul>
+
+        <!-- SECTION 19 -->
+        <h2 id="contact-terms">19. Contact</h2>
+
+        <div class="contact-box">
+            <div class="contact-row"><span class="contact-label">Support:</span><a href="mailto:support@noorbloom.app">support@noorbloom.app</a></div>
+            <div class="contact-row"><span class="contact-label">Legal:</span><a href="mailto:legal@noorbloom.app">legal@noorbloom.app</a></div>
+            <div class="contact-row"><span class="contact-label">Website:</span><a href="https://noorbloom.app/terms" target="_blank">https://noorbloom.app/terms</a></div>
+            <div class="contact-row"><span class="contact-label">In-App:</span>Profile → Help &amp; Support</div>
+        </div>
+
+    </div>
+
+    <!-- SECTION 20 — APPLE EULA — separate styled card -->
+    <div class="apple-section content-card">
+
+        <h2 id="apple-eula">20. Apple iOS Minimum Terms — Custom EULA <span class="apple-badge">REQUIRED</span></h2>
+
+        <p>The following provisions apply when you access or use the NoorBloom App through an Apple Inc. ("Apple") branded device. These Terms, including this Section 20, constitute a custom End-User Licence Agreement (EULA) for the NoorBloom App for purposes of Apple's App Store Review Guidelines and Apple's agreements with developers. <strong>Apple's standard EULA does not apply to NoorBloom.</strong></p>
+
+        <h3>20.1 Acknowledgement</h3>
+        <p>These Terms are concluded solely between NoorBloom and you, and not with Apple. As between Apple and NoorBloom, NoorBloom is solely responsible for the App and the content thereof. Apple has no obligation whatsoever to provide any maintenance or support services with respect to the App.</p>
+
+        <h3>20.2 Scope of Licence</h3>
+        <p>The licence granted to you in Section 3 of these Terms is a non-transferable licence to use the App on any Apple-branded device that you own or control, subject to the Usage Rules set forth in the Apple Media Services Terms and Conditions, except that the App may be accessed and used by other accounts associated with you via Family Sharing or volume purchasing, as permitted by Apple's Usage Rules.</p>
+
+        <h3>20.3 Maintenance and Support</h3>
+        <p>NoorBloom is solely responsible for providing any maintenance and support services with respect to the App, as specified in these Terms, or as required under applicable law. Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the App.</p>
+
+        <h3>20.4 Warranty</h3>
+        <p>In the event of any failure of the App to conform to any applicable warranty not effectively disclaimed in Section 11 of these Terms, you may notify Apple, and Apple may refund the purchase price (if any) for the App to you. To the maximum extent permitted by applicable law, Apple will have no other warranty obligation whatsoever with respect to the App. Any other claims, losses, liabilities, damages, costs, or expenses attributable to any failure to conform to any warranty are the sole responsibility of NoorBloom, subject to the limitations in Section 12 of these Terms.</p>
+
+        <h3>20.5 Product Liability Claims</h3>
+        <p>As between Apple and NoorBloom, NoorBloom, not Apple, is responsible for addressing any claims by you or any third party relating to the App or your possession and/or use of the App, including but not limited to: (a) product liability claims; (b) any claim that the App fails to conform to any applicable legal or regulatory requirement; and (c) claims arising under consumer protection, privacy, or similar legislation.</p>
+
+        <h3>20.6 Intellectual Property Claims</h3>
+        <p>In the event of any third-party claim that the App or your possession and use of the App infringes that third party's intellectual property rights, NoorBloom, not Apple, will be solely responsible for the investigation, defence, settlement, and discharge of any such intellectual property infringement claim, subject to the limitations of liability in Section 12.</p>
+
+        <h3>20.7 Legal Compliance</h3>
+        <p>You represent and warrant that: (a) you are not located in a country subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a "terrorist-supporting" country; and (b) you are not listed on any U.S. Government list of prohibited or restricted parties.</p>
+
+        <h3>20.8 Contact for App Complaints</h3>
+        <p>Questions, complaints, or claims with respect to the App should be directed to NoorBloom, not Apple:</p>
+        <div style="margin: 12px 0 12px 24px; font-size: 0.93em; color: #2a3860;">
+            <strong>Email:</strong> <a href="mailto:support@noorbloom.app">support@noorbloom.app</a><br>
+            <strong>Website:</strong> <a href="https://noorbloom.app" target="_blank">https://noorbloom.app</a>
+        </div>
+
+        <h3>20.9 Third-Party Beneficiary</h3>
+        <p>Apple and Apple's subsidiaries are third-party beneficiaries of these Terms, and upon your acceptance of these Terms, Apple will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary thereof. No other third party is a third-party beneficiary of these Terms.</p>
+
+        <h3>20.10 No Objections or Claims Against Apple</h3>
+        <p>You acknowledge and agree that Apple shall not be responsible for addressing any claims by you or any third party relating to the App or your possession and use of the App, and that Apple has no obligation whatsoever to furnish any maintenance or support services with respect to the App. To the extent that these Terms provide for usage rules that are less restrictive than, or otherwise in conflict with, the App Store Terms of Service, the App Store Terms of Service shall prevail.</p>
+</div>
+
+    <div class="content-card">
+        <div class="acceptance-box">
+            <p>BY DOWNLOADING, INSTALLING, OR USING NOORBLOOM, YOU CONFIRM THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THESE TERMS AND CONDITIONS AND OUR PRIVACY POLICY.</p>
+        </div>
+    </div>
+
+    <div style="text-align:center; padding: 28px; color: #7a5065; font-size: 0.85em;">
+        <p>Last updated: <strong>February 13, 2026</strong> (Version 2.1)</p>
+        <p style="margin-top: 8px;"><a href="https://noorbloom.app/privacy" style="color:#d4507a;">← Privacy Policy</a></p>
+    </div>
+
+    <!-- DEVELOPER CHECKLIST — DELETE BEFORE PUBLISHING -->
+    <div style="border: 2.5px dashed #d4507a; border-radius:16px; background:#fff8f0; padding:32px 36px; margin:16px auto; max-width:820px;">
+        <h2 style="font-family:'Georgia',serif; color:#c05010; border-bottom: 2px solid #f7c5d8; padding-bottom:10px; margin-top:0;">⚙️ Developer Checklist — DELETE THIS SECTION BEFORE PUBLISHING</h2>
+        <p style="color:#6b3a18; font-size:0.9em; margin-bottom:20px;">Complete every item below before App Store submission. This section must not appear on the live public URL.</p>
+
+        <h3 style="color:#c05010; margin-top:18px;">1. App Store Connect (Required)</h3>
+        <ul style="color:#6b3a18; font-size:0.9em;">
+            <li>Privacy Policy URL field → <code>https://noorbloom.app/privacy</code> (verify it returns HTTP 200, no redirect loops)</li>
+            <li>Complete App Privacy Nutrition Labels using the reference table in Privacy Policy Section 4</li>
+            <li>Review Notes → add demo credentials: <em>Email: reviewer@noorbloom.app · Password: [set a test password]</em></li>
+            <li>Review Notes → describe AI: "The app uses AI (via a third-party API) to generate personalized Islamic supplications (duas) and diary reflections. Mood selections retrieve pre-written affirmations and are not stored server-side."</li>
+        </ul>
+
+        <h3 style="color:#c05010; margin-top:18px;">2. UI Changes Required in the App (These are NOT in the legal documents)</h3>
+        <ul style="color:#6b3a18; font-size:0.9em;">
+            <li><strong>[Guideline 1.4.1 — Crisis Resources]</strong> When user selects "Depressed" OR diary entry contains distress keywords → show a dismissable banner: <em>"Your wellbeing matters. If you're struggling, please reach out: Turkey: 182 · Global: findahelpline.com"</em></li>
+            <li><strong>[Guideline 4.9 — Paywall Disclosure]</strong> The subscription paywall screen must display: Plan name + price + subscription duration + "Auto-renews [monthly/yearly] unless cancelled at least 24 hours before period ends" + "Cancel or manage: iPhone Settings → Apple ID → Subscriptions" + a <strong>Restore Purchases</strong> button</li>
+            <li><strong>[GDPR/KVKK — Dua Feature]</strong> Under the "Who is this dua for?" name field, add a one-time-dismissable notice: <em>"Only enter a name and context you have permission to share. This data is used solely to generate the dua and is not stored."</em></li>
+            <li><strong>[Apple Guideline — Account Deletion]</strong> Profile → Settings → Delete Account must: (a) require biometric/password confirmation, (b) show a confirmation screen stating data is deleted within 30 days, (c) immediately revoke session access on confirmation</li>
+        </ul>
+
+        <h3 style="color:#c05010; margin-top:18px;">3. Before Going Live</h3>
+        <ul style="color:#6b3a18; font-size:0.9em;">
+            <li>Confirm all email addresses are live and monitored: privacy@, dpo@, kvkk@, support@, legal@ noorbloom.app</li>
+            <li>Confirm https://noorbloom.app/privacy and https://noorbloom.app/terms return HTTP 200</li>
+            <li><strong>Delete this entire checklist section from the public-facing Terms page</strong></li>
+        </ul>
+    </div>
+
+</div>
+</body>
+</html>
