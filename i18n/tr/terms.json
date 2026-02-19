@@ -1,0 +1,12 @@
+{
+  "title": "Kullanım Şartları – NoorBloom",
+  "header": { "appName": "NoorBloom", "docTitle": "Kullanım Şartları" },
+  "intro": { "p": "Bu, NoorBloom kullanım şartları örnek içeriğidir." },
+  "contact": {
+    "support": "<a href=\"mailto:noorbloomapp@gmail.com\">noorbloomapp@gmail.com</a>",
+    "badgeSupport": "Kullanıcı Desteği",
+    "legal": "<a href=\"mailto:noorbloomlegal@gmail.com\">noorbloomlegal@gmail.com</a>",
+    "badgeLegal": "Hukuk & Gizlilik"
+  },
+  "content": "<h2>Kabul</h2><p>NoorBloom'u kullanarak bu şartları kabul etmiş olursunuz.</p>"
+}

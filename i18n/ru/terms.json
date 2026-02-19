@@ -1,0 +1,12 @@
+{
+  "title": "Условия использования – NoorBloom",
+  "header": { "appName": "NoorBloom", "docTitle": "Условия использования" },
+  "intro": { "p": "Это пример условий использования NoorBloom." },
+  "contact": {
+    "support": "<a href=\"mailto:noorbloomapp@gmail.com\">noorbloomapp@gmail.com</a>",
+    "badgeSupport": "Поддержка пользователей",
+    "legal": "<a href=\"mailto:noorbloomlegal@gmail.com\">noorbloomlegal@gmail.com</a>",
+    "badgeLegal": "Юридический отдел & Конфиденциальность"
+  },
+  "content": "<h2>Принятие</h2><p>Используя NoorBloom, вы принимаете эти условия.</p>"
+}

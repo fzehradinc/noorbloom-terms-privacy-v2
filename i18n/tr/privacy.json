@@ -1,0 +1,12 @@
+{
+  "title": "Gizlilik Politikası – NoorBloom",
+  "header": { "appName": "NoorBloom", "docTitle": "Gizlilik Politikası" },
+  "intro": { "p": "NoorBloom gizliliğinizi korumaya kararlıdır. Bu örnek çeviri metnidir." },
+  "contact": {
+    "support": "<a href=\"mailto:noorbloomapp@gmail.com\">noorbloomapp@gmail.com</a>",
+    "badgeSupport": "Kullanıcı Desteği",
+    "legal": "<a href=\"mailto:noorbloomlegal@gmail.com\">noorbloomlegal@gmail.com</a>",
+    "badgeLegal": "Hukuk & Gizlilik"
+  },
+  "content": "<h2>İletişim</h2><p>Gizlilik sorularınız için <a href=\'mailto:noorbloomapp@gmail.com\'>noorbloomapp@gmail.com</a> adresine e-posta gönderin.</p>"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Terms & Conditions – NoorBloom",
+  "header": { "appName": "NoorBloom", "docTitle": "Terms & Conditions" },
+  "intro": { "p": "These are the NoorBloom terms — this is example content for translation." },
+  "contact": {
+    "support": "<a href=\"mailto:noorbloomapp@gmail.com\">noorbloomapp@gmail.com</a>",
+    "badgeSupport": "User Support",
+    "legal": "<a href=\"mailto:noorbloomlegal@gmail.com\">noorbloomlegal@gmail.com</a>",
+    "badgeLegal": "Legal & Privacy"
+  },
+  "content": "<h2>Acceptance</h2><p>By using NoorBloom you accept these terms.</p>"
+}

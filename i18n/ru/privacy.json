@@ -1,0 +1,12 @@
+{
+  "title": "Политика конфиденциальности – NoorBloom",
+  "header": { "appName": "NoorBloom", "docTitle": "Политика конфиденциальности" },
+  "intro": { "p": "NoorBloom стремится защищать вашу конфиденциальность. Это пример перевода." },
+  "contact": {
+    "support": "<a href=\"mailto:noorbloomapp@gmail.com\">noorbloomapp@gmail.com</a>",
+    "badgeSupport": "Поддержка пользователей",
+    "legal": "<a href=\"mailto:noorbloomlegal@gmail.com\">noorbloomlegal@gmail.com</a>",
+    "badgeLegal": "Юридический отдел & Конфиденциальность"
+  },
+  "content": "<h2>Контакт</h2><p>По вопросам конфиденциальности пишите на <a href=\'mailto:noorbloomapp@gmail.com\'>noorbloomapp@gmail.com</a>.</p>"
+}

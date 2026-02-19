@@ -1,0 +1,12 @@
+{
+  "title": "Privacy Policy – NoorBloom",
+  "header": { "appName": "NoorBloom", "docTitle": "Privacy Policy" },
+  "intro": { "p": "NoorBloom (\"we\") is committed to protecting your privacy. This is a minimal example translation. Replace with full content." },
+  "contact": {
+    "support": "<a href=\"mailto:noorbloomapp@gmail.com\">noorbloomapp@gmail.com</a>",
+    "badgeSupport": "User Support",
+    "legal": "<a href=\"mailto:noorbloomlegal@gmail.com\">noorbloomlegal@gmail.com</a>",
+    "badgeLegal": "Legal & Privacy"
+  },
+  "content": "<h2>Contact</h2><p>If you have privacy questions, email <a href=\'mailto:noorbloomapp@gmail.com\'>noorbloomapp@gmail.com</a>.</p>"
+}
