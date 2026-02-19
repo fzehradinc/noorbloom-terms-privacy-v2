@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms and Conditions – NoorBloom</title>
+    <title data-i18n="page_title">Terms and Conditions – NoorBloom</title>
+    <link rel="stylesheet" href="/css/language-switcher.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -277,9 +278,14 @@
 <div class="page-wrapper">
 
     <div class="doc-header">
-        <div id="lang-switcher" style="position:absolute; top:12px; right:18px; z-index:30;"></div>
+        <div class="language-switcher" style="position:static; display:none;" aria-hidden="true">
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="tr">TR</button>
+            <button class="lang-btn" data-lang="ru">RU</button>
+        </div>
+        <span data-i18n="page_title" style="display:none"></span>
         <div class="app-name">NoorBloom</div>
-        <div class="doc-title">Terms &amp; Conditions</div>
+        <div class="doc-title" data-i18n="terms_title">Terms &amp; Conditions</div>
         <div class="meta-row">
             <span class="meta-badge">Effective: February 13, 2026</span>
             <span class="meta-badge">Version 2.0</span>
