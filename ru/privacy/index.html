@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoorBloom – Политика конфиденциальности</title>
+
+    <!-- Basic SEO -->
+    <meta name="description" content="Политика конфиденциальности NoorBloom: как мы собираем, используем и защищаем ваши персональные данные, включая религиозную информацию. Соответствие GDPR, CCPA и KVKK. Версия 2.0.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://noorbloom.org/ru/privacy">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="NoorBloom">
+    <meta property="og:title" content="NoorBloom – Политика конфиденциальности">
+    <meta property="og:description" content="Узнайте, как NoorBloom защищает ваши персональные данные, включая религиозные убеждения и конфиденциальную информацию. GDPR, CCPA и KVKK.">
+    <meta property="og:url" content="https://noorbloom.org/ru/privacy">
+    <meta property="og:image" content="https://noorbloom.org/assets/noorbloom-og-privacy.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="tr_TR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NoorBloom – Политика конфиденциальности">
+    <meta name="twitter:description" content="Узнайте, как NoorBloom защищает ваши персональные данные, включая религиозные убеждения и конфиденциальную информацию.">
+    <meta name="twitter:image" content="https://noorbloom.org/assets/noorbloom-og-privacy.png">
+
+    <!-- Hreflang -->
+    <link rel="alternate" hreflang="en" href="https://noorbloom.org/en/privacy">
+    <link rel="alternate" hreflang="tr" href="https://noorbloom.org/tr/privacy">
+    <link rel="alternate" hreflang="ru" href="https://noorbloom.org/ru/privacy">
+    <link rel="alternate" hreflang="x-default" href="https://noorbloom.org/en/privacy">
+
+    <!-- Fonts & Styles -->
+    <link rel="stylesheet" href="/css/language-switcher.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --rose: #d4507a;
+            --rose-light: #f7c5d8;
+            --rose-pale: #fdf0f5;
+            --rose-soft: #fae4ed;
+            --text-dark: #1a0a10;
+            --text-mid: #4a2535;
+            --text-light: #7a5065;
+            --border: #f0d0de;
+            --alert-bg: #fff8f0;
+            --alert-border: #e8914a;
+            --commitment-bg: #f0faf5;
+            --commitment-border: #2e8b57;
+            --gdpr-bg: #f5f0ff;
+            --gdpr-border: #7c4dff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: linear-gradient(160deg, #fdf0f5 0%, #fff5f9 50%, #fdf0f5 100%);
+            color: var(--text-dark);
+            line-height: 1.75;
+            padding: 20px;
+        }
+        .page-wrapper { max-width: 820px; margin: 0 auto; }
+
+        .doc-header {
+            background: linear-gradient(135deg, #d4507a 0%, #c03060 60%, #a01840 100%);
+            border-radius: 20px;
+            padding: 48px 40px;
+            margin-bottom: 12px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .doc-header::before {
+            content: '';
+            position: absolute;
+            top: -40px; right: -40px;
+            width: 200px; height: 200px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.07);
+        }
+        .doc-header::after {
+            content: '';
+            position: absolute;
+            bottom: -30px; left: -30px;
+            width: 150px; height: 150px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.05);
+        }
+        .app-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.6em;
+            color: #fff;
+            letter-spacing: 0.02em;
+            margin-bottom: 6px;
+        }
+        .doc-title {
+            font-size: 1.1em;
+            color: rgba(255,255,255,0.85);
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+        .meta-row {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .meta-badge {
+            background: rgba(255,255,255,0.18);
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 30px;
+            padding: 6px 18px;
+            font-size: 0.82em;
+            color: #fff;
+            font-weight: 500;
+        }
+
+        .header-lang-switcher {
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            display: flex;
+            gap: 8px;
+            z-index: 10;
+        }
+        .header-lang-switcher a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            font-size: 0.8em;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.25);
+            transition: all 0.2s;
+        }
+        .header-lang-switcher a:hover {
+            background: rgba(255,255,255,0.15);
+            color: #fff;
+        }
+        .header-lang-switcher a.active {
+            background: rgba(255,255,255,0.25);
+            color: #fff;
+            border-color: rgba(255,255,255,0.5);
+        }
+
+        .translation-notice {
+            background: linear-gradient(135deg, #fffbe6, #fff8d6);
+            border: 2px solid #e8c840;
+            border-radius: 14px;
+            padding: 18px 24px;
+            margin-bottom: 12px;
+            font-size: 0.92em;
+            color: #5a4a10;
+        }
+        .translation-notice strong { color: #8a6a10; }
+        .translation-notice a { color: var(--rose); font-weight: 600; }
+
+        .content-card {
+            background: #fff;
+            border-radius: 20px;
+            padding: 48px 44px;
+            box-shadow: 0 4px 24px rgba(180,60,100,0.07);
+            margin-bottom: 16px;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.55em;
+            color: var(--rose);
+            margin-top: 44px;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--rose-light);
+        }
+        h2:first-of-type { margin-top: 0; }
+
+        h3 {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 1.1em;
+            font-weight: 600;
+            color: var(--text-mid);
+            margin-top: 24px;
+            margin-bottom: 10px;
+        }
+
+        p { color: var(--text-mid); margin-bottom: 14px; font-size: 0.97em; }
+        ul, ol { margin-left: 24px; margin-bottom: 16px; }
+        li { color: var(--text-mid); margin-bottom: 8px; font-size: 0.97em; }
+        a { color: var(--rose); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .alert-box {
+            background: var(--alert-bg);
+            border-left: 4px solid var(--alert-border);
+            border-radius: 0 10px 10px 0;
+            padding: 16px 20px;
+            margin: 18px 0;
+        }
+        .alert-box strong { color: #c05010; display: block; margin-bottom: 6px; }
+
+        .commitment-box {
+            background: var(--commitment-bg);
+            border-left: 4px solid var(--commitment-border);
+            border-radius: 0 10px 10px 0;
+            padding: 16px 20px;
+            margin: 18px 0;
+        }
+        .commitment-box strong { color: #1a6b3a; display: block; margin-bottom: 6px; }
+
+        .gdpr-box {
+            background: var(--gdpr-bg);
+            border-left: 4px solid var(--gdpr-border);
+            border-radius: 0 10px 10px 0;
+            padding: 16px 20px;
+            margin: 18px 0;
+        }
+        .gdpr-box strong { color: #4a2090; display: block; margin-bottom: 6px; }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 18px 0;
+            font-size: 0.9em;
+        }
+        .data-table th {
+            background: var(--rose-soft);
+            color: var(--rose);
+            font-weight: 600;
+            padding: 12px 14px;
+            text-align: left;
+            border: 1px solid var(--border);
+        }
+        .data-table td {
+            padding: 11px 14px;
+            border: 1px solid var(--border);
+            color: var(--text-mid);
+            vertical-align: top;
+        }
+        .data-table tr:nth-child(even) td { background: var(--rose-pale); }
+
+        .contact-box {
+            background: var(--rose-pale);
+            border: 1px solid var(--rose-light);
+            border-radius: 14px;
+            padding: 24px 28px;
+            margin-top: 32px;
+        }
+        .contact-box h3 { margin-top: 0; color: var(--rose); }
+        .contact-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+            font-size: 0.93em;
+            color: var(--text-mid);
+        }
+        .contact-label { font-weight: 600; min-width: 90px; }
+
+        .doc-footer {
+            text-align: center;
+            padding: 28px;
+            color: var(--text-light);
+            font-size: 0.85em;
+        }
+        .doc-footer a { color: var(--rose); }
+
+        @media (max-width: 640px) {
+            .content-card { padding: 28px 20px; }
+            .doc-header { padding: 36px 24px; }
+            .app-name { font-size: 2em; }
+            .meta-row { gap: 10px; }
+            .header-lang-switcher { top: 10px; right: 12px; }
+        }
+    </style>
+</head>
+<body>
+<div class="page-wrapper">
+
+    <div class="doc-header">
+        <nav class="header-lang-switcher" aria-label="Язык">
+            <a href="/en/privacy" lang="en">EN</a>
+            <a href="/tr/privacy" lang="tr">TR</a>
+            <a href="/ru/privacy" class="active" lang="ru">RU</a>
+        </nav>
+        <div class="app-name">NoorBloom</div>
+        <div class="doc-title">Политика конфиденциальности</div>
+        <div class="meta-row">
+            <span class="meta-badge">Действует с: 13 февраля 2026</span>
+            <span class="meta-badge">Версия 2.0</span>
+            <span class="meta-badge">GDPR &#183; CCPA &#183; KVKK</span>
+        </div>
+    </div>
+
+    <div class="translation-notice">
+        <strong>&#9888;&#65039; Уведомление о переводе:</strong> Юридически обязательной версией Политики конфиденциальности является <a href="/en/privacy">английский оригинал</a>. Данное краткое изложение на русском языке предоставлено в информационных целях. В случае расхождений преимущественную силу имеет английский текст.
+    </div>
+
+    <div class="content-card">
+
+        <h2>Обзор</h2>
+        <p>NoorBloom (&#171;мы&#187;) управляет мобильным приложением NoorBloom (&#171;Приложение&#187;). Учитывая глубоко личный и религиозный характер наших услуг, мы стремимся защитить вашу конфиденциальность. Настоящая политика описывает, какие персональные данные мы собираем, зачем, как используем и защищаем их.</p>
+
+        <div class="alert-box">
+            <strong>&#9888;&#65039; Важное уведомление о конфиденциальных персональных данных</strong>
+            Использование NoorBloom может раскрыть или позволить сделать вывод о вашей исламской вере и религиозных практиках. В соответствии с GDPR (Статья 9) и турецким KVKK (Статья 6) данные, раскрывающие религиозные убеждения, являются <strong>особой категорией персональных данных</strong>, подлежащих усиленной защите.
+        </div>
+
+        <h2>1. Собираемая информация</h2>
+        <ul>
+            <li><strong>Данные учётной записи:</strong> Email, отображаемое имя, зашифрованный пароль, токен аутентификации Apple/Google, статус подписки</li>
+            <li><strong>Данные о местоположении:</strong> Используются только для расчёта времени намаза и определения направления Киблы. История местоположений не хранится на наших серверах.</li>
+            <li><strong>Созданный контент:</strong> Запросы дуа (не сохраняются после генерации), выбор настроения (только на время сессии), записи дневника (хранятся только на устройстве)</li>
+            <li><strong>Данные использования и аналитики:</strong> Собираются через Firebase Analytics и Crashlytics; псевдонимизированные или агрегированные.</li>
+            <li><strong>Платёжная информация:</strong> Обрабатывается через Apple App Store. Мы не имеем доступа к данным вашей банковской карты.</li>
+        </ul>
+
+        <h2>2. Категории конфиденциальных данных</h2>
+        <table class="data-table">
+            <thead><tr><th>Тип данных</th><th>Обработка</th></tr></thead>
+            <tbody>
+                <tr><td><strong>Данные о религиозных убеждениях</strong></td><td>Используются исключительно для работы исламских функций. Никогда не продаются и не передаются рекламодателям.</td></tr>
+                <tr><td><strong>Эмоциональные данные / данные о психическом здоровье</strong></td><td>Используются только в текущей сессии для подбора релевантных аффирмаций.</td></tr>
+                <tr><td><strong>Личные записи дневника</strong></td><td>Хранятся только на устройстве. Не загружаются, если не запрошено AI-размышление.</td></tr>
+                <tr><td><strong>Персональные данные третьих лиц</strong></td><td>Временно обрабатываются для генерации дуа, не сохраняются.</td></tr>
+            </tbody>
+        </table>
+
+        <h2>3. Функции на основе ИИ</h2>
+        <ul>
+            <li><strong>Генератор дуа:</strong> Входные данные не сохраняются после генерации. Не используются для обучения моделей ИИ.</li>
+            <li><strong>Дневник размышлений (ИИ):</strong> Переданный текст немедленно удаляется после возврата размышления.</li>
+            <li><strong>Аффирмации:</strong> Выбор настроения не сохраняется в привязке к вашему долгосрочному профилю.</li>
+        </ul>
+        <div class="commitment-box">
+            <strong>&#10003; Наше обязательство в отношении ИИ</strong>
+            Мы не используем ваши личные духовные данные, записи дневника или эмоциональное состояние для обучения моделей ИИ без вашего отдельного и явного согласия.
+        </div>
+
+        <h2>4. Как мы используем вашу информацию</h2>
+        <p>Ваши данные используются для: предоставления и поддержки Приложения, аутентификации учётной записи, персонализации, обработки подписок, уведомлений о времени намаза, улучшения производительности приложения, соблюдения законодательных обязательств.</p>
+        <h3>Мы НЕ используем ваши данные для:</h3>
+        <ul>
+            <li>Таргетированной или поведенческой рекламы</li>
+            <li>Продажи данных третьим лицам, брокерам данных или маркетологам</li>
+            <li>Профилирования на основе ваших религиозных практик</li>
+            <li>Государственного наблюдения или разведки</li>
+        </ul>
+
+        <h2>5. Передача информации</h2>
+        <p>Мы не продаём, не сдаём в аренду и не обмениваем ваши персональные данные. Мы передаём информацию только в следующих случаях:</p>
+        <ul>
+            <li><strong>Поставщики услуг:</strong> Google Firebase, Apple Inc., провайдер обработки ИИ</li>
+            <li><strong>Юридические требования:</strong> При наличии законного основания</li>
+            <li><strong>Бизнес-трансферы:</strong> С предварительным уведомлением</li>
+        </ul>
+
+        <h2>6. Безопасность данных</h2>
+        <ul>
+            <li>Все данные при передаче шифруются с использованием TLS 1.2+</li>
+            <li>Пароли хранятся как односторонние криптографические хеши (bcrypt)</li>
+            <li>Данные Firebase шифруются в состоянии покоя (AES-256)</li>
+            <li>Записи дневника не покидают устройство в незашифрованном виде</li>
+        </ul>
+
+        <h2>7. Хранение и удаление данных</h2>
+        <table class="data-table">
+            <thead><tr><th>Тип данных</th><th>Срок хранения</th></tr></thead>
+            <tbody>
+                <tr><td>Данные учётной записи</td><td>До удаления аккаунта + 30 дней</td></tr>
+                <tr><td>Записи дневника</td><td>Только на устройстве</td></tr>
+                <tr><td>Входные данные дуа</td><td>Немедленно удаляются после генерации</td></tr>
+                <tr><td>Выбор настроения</td><td>Только на время сессии</td></tr>
+                <tr><td>Аналитика (анонимная)</td><td>До 14 месяцев</td></tr>
+                <tr><td>Журналы сбоев</td><td>90 дней</td></tr>
+            </tbody>
+        </table>
+        <p><strong>Удаление аккаунта:</strong> NoorBloom &#8594; Профиль &#8594; Настройки &#8594; Удалить аккаунт. Или напишите на <a href="mailto:noorbloomapp@gmail.com">noorbloomapp@gmail.com</a>.</p>
+
+        <h2>8. Ваши права на конфиденциальность</h2>
+        <ul>
+            <li><strong>Доступ:</strong> Запросить копию ваших персональных данных.</li>
+            <li><strong>Исправление:</strong> Запросить исправление неточных или неполных данных.</li>
+            <li><strong>Удаление:</strong> Запросить удаление ваших данных.</li>
+            <li><strong>Переносимость:</strong> Получить данные в портативном формате.</li>
+            <li><strong>Отзыв согласия:</strong> Отозвать любое согласие в любое время.</li>
+        </ul>
+
+        <h2>9. GDPR (ЕС / Великобритания / Швейцария)</h2>
+        <div class="gdpr-box">
+            <strong>GDPR Статья 9 — Явное согласие на обработку конфиденциальных данных</strong>
+            Если вы находитесь в ЕЭЗ, Великобритании или Швейцарии, у вас есть дополнительные права: право на возражение, право на ограничение обработки, право подать жалобу в национальный надзорный орган.
+        </div>
+
+        <h2>10. CCPA (Калифорния)</h2>
+        <p>Жители Калифорнии имеют дополнительные права: право на информацию, право на удаление, право на исправление, право отказаться от продажи персональных данных (мы не продаём ваши данные).</p>
+
+        <h2>11. KVKK (Турция)</h2>
+        <p>Данные о религиозных убеждениях: особая категория по Статье 6 KVKK, обрабатываются только с <strong>явного согласия</strong>. Права по Статье 11 KVKK: узнать, обрабатываются ли данные, запросить информацию, исправление, удаление.</p>
+        <p>Контакт KVKK: <a href="mailto:noorbloomlegal@gmail.com">noorbloomlegal@gmail.com</a></p>
+
+        <h2>12. Конфиденциальность детей</h2>
+        <p>NoorBloom предназначен для пользователей <strong>от 13 лет</strong>. Мы сознательно не собираем персональные данные детей младше 13 лет.</p>
+
+        <h2>13. Изменения политики</h2>
+        <p>О существенных изменениях мы уведомим через уведомление в приложении и/или по электронной почте.</p>
+
+        <h2>14. Контакты</h2>
+        <div class="contact-box">
+            <h3>Вопросы конфиденциальности</h3>
+            <div class="contact-row"><span class="contact-label">Email:</span> <a href="mailto:noorbloomapp@gmail.com">noorbloomapp@gmail.com</a></div>
+            <div class="contact-row"><span class="contact-label">KVKK:</span> <a href="mailto:noorbloomlegal@gmail.com">noorbloomlegal@gmail.com</a></div>
+            <div class="contact-row"><span class="contact-label">Сайт:</span> <a href="https://noorbloom.org/en/privacy">https://noorbloom.org/en/privacy</a></div>
+        </div>
+
+        <p style="margin-top: 24px;"><strong>Полный юридический текст см. в <a href="/en/privacy">английской версии Политики конфиденциальности</a>.</strong></p>
+    </div>
+
+    <div class="doc-footer">
+        <p style="margin:0;">Последнее обновление: <strong>13 февраля 2026</strong> &#183; Версия 2.0</p>
+        <p style="margin:8px 0 0 0;"><a href="/ru/terms">&#8592; Условия использования</a></p>
+    </div>
+
+</div>
+
+<script>
+(function() {
+    window.noorbloomPrivacyStaticLoaded = true;
+    var contentCheck = setTimeout(function() {
+        var wrapper = document.querySelector('.page-wrapper');
+        if (wrapper && wrapper.innerText.trim().length < 200) {
+            window.location.reload();
+        }
+    }, 5000);
+    window.__noorbloomFallbackTimer = contentCheck;
+})();
+</script>
+</body>
+</html>
