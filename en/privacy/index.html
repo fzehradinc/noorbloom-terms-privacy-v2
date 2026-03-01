@@ -1,29 +1,726 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Privacy Policy</title>
-  <link rel="stylesheet" href="/styles.css">
-  <!-- hreflangs will be added automatically by i18n.js -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoorBloom – Privacy Policy</title>
+
+    <!-- Basic SEO -->
+    <meta name="description" content="NoorBloom Privacy Policy: how we collect, use, and protect your personal data including religious and sensitive information. GDPR, CCPA, KVKK compliant. Effective February 13, 2026 – Version 2.0.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://noorbloom.org/en/privacy">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="NoorBloom">
+    <meta property="og:title" content="NoorBloom – Privacy Policy">
+    <meta property="og:description" content="Learn how NoorBloom protects your personal data, including religious beliefs and sensitive information. GDPR, CCPA &amp; KVKK compliant. Version 2.0.">
+    <meta property="og:url" content="https://noorbloom.org/en/privacy">
+    <meta property="og:image" content="https://noorbloom.org/assets/noorbloom-og-privacy.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="tr_TR">
+    <meta property="og:locale:alternate" content="ru_RU">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NoorBloom – Privacy Policy">
+    <meta name="twitter:description" content="Learn how NoorBloom protects your personal data, including religious beliefs and sensitive information. GDPR, CCPA &amp; KVKK compliant.">
+    <meta name="twitter:image" content="https://noorbloom.org/assets/noorbloom-og-privacy.png">
+
+    <!-- Hreflang -->
+    <link rel="alternate" hreflang="en" href="https://noorbloom.org/en/privacy">
+    <link rel="alternate" hreflang="tr" href="https://noorbloom.org/tr/privacy">
+    <link rel="alternate" hreflang="ru" href="https://noorbloom.org/ru/privacy">
+    <link rel="alternate" hreflang="x-default" href="https://noorbloom.org/en/privacy">
+
+    <!-- Fonts & Styles -->
+    <link rel="stylesheet" href="/css/language-switcher.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --rose: #d4507a;
+            --rose-light: #f7c5d8;
+            --rose-pale: #fdf0f5;
+            --rose-soft: #fae4ed;
+            --text-dark: #1a0a10;
+            --text-mid: #4a2535;
+            --text-light: #7a5065;
+            --border: #f0d0de;
+            --alert-bg: #fff8f0;
+            --alert-border: #e8914a;
+            --commitment-bg: #f0faf5;
+            --commitment-border: #2e8b57;
+            --gdpr-bg: #f5f0ff;
+            --gdpr-border: #7c4dff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: linear-gradient(160deg, #fdf0f5 0%, #fff5f9 50%, #fdf0f5 100%);
+            color: var(--text-dark);
+            line-height: 1.75;
+            padding: 20px;
+        }
+
+        .page-wrapper { max-width: 820px; margin: 0 auto; }
+
+        .doc-header {
+            background: linear-gradient(135deg, #d4507a 0%, #c03060 60%, #a01840 100%);
+            border-radius: 20px;
+            padding: 48px 40px;
+            margin-bottom: 12px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .doc-header::before {
+            content: '';
+            position: absolute;
+            top: -40px; right: -40px;
+            width: 200px; height: 200px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.07);
+        }
+        .doc-header::after {
+            content: '';
+            position: absolute;
+            bottom: -30px; left: -30px;
+            width: 150px; height: 150px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.05);
+        }
+        .app-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.6em;
+            color: #fff;
+            letter-spacing: 0.02em;
+            margin-bottom: 6px;
+        }
+        .doc-title {
+            font-size: 1.1em;
+            color: rgba(255,255,255,0.85);
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+        .meta-row {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .meta-badge {
+            background: rgba(255,255,255,0.18);
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 30px;
+            padding: 6px 18px;
+            font-size: 0.82em;
+            color: #fff;
+            font-weight: 500;
+        }
+
+        .header-lang-switcher {
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            display: flex;
+            gap: 8px;
+            z-index: 10;
+        }
+        .header-lang-switcher a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            font-size: 0.8em;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.25);
+            transition: all 0.2s;
+        }
+        .header-lang-switcher a:hover {
+            background: rgba(255,255,255,0.15);
+            color: #fff;
+        }
+        .header-lang-switcher a.active {
+            background: rgba(255,255,255,0.25);
+            color: #fff;
+            border-color: rgba(255,255,255,0.5);
+        }
+
+        .critical-notice {
+            background: linear-gradient(135deg, #fff8f0, #fff3e8);
+            border: 2px solid var(--alert-border);
+            border-radius: 14px;
+            padding: 22px 28px;
+            margin-bottom: 12px;
+        }
+        .critical-notice .notice-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.05em;
+            color: #c05010;
+            font-weight: 700;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .critical-notice p {
+            font-size: 0.9em;
+            color: #6b3a18;
+            line-height: 1.6;
+        }
+
+        .content-card {
+            background: #fff;
+            border-radius: 20px;
+            padding: 48px 44px;
+            box-shadow: 0 4px 24px rgba(180,60,100,0.07);
+            margin-bottom: 16px;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.55em;
+            color: var(--rose);
+            margin-top: 44px;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--rose-light);
+        }
+        h2:first-of-type { margin-top: 0; }
+
+        h3 {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 1.1em;
+            font-weight: 600;
+            color: var(--text-mid);
+            margin-top: 24px;
+            margin-bottom: 10px;
+        }
+
+        p { color: var(--text-mid); margin-bottom: 14px; font-size: 0.97em; }
+        ul, ol { margin-left: 24px; margin-bottom: 16px; }
+        li { color: var(--text-mid); margin-bottom: 8px; font-size: 0.97em; }
+        a { color: var(--rose); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .alert-box {
+            background: var(--alert-bg);
+            border-left: 4px solid var(--alert-border);
+            border-radius: 0 10px 10px 0;
+            padding: 16px 20px;
+            margin: 18px 0;
+        }
+        .alert-box strong { color: #c05010; display: block; margin-bottom: 6px; }
+
+        .commitment-box {
+            background: var(--commitment-bg);
+            border-left: 4px solid var(--commitment-border);
+            border-radius: 0 10px 10px 0;
+            padding: 16px 20px;
+            margin: 18px 0;
+        }
+        .commitment-box strong { color: #1a6b3a; display: block; margin-bottom: 6px; }
+
+        .gdpr-box {
+            background: var(--gdpr-bg);
+            border-left: 4px solid var(--gdpr-border);
+            border-radius: 0 10px 10px 0;
+            padding: 16px 20px;
+            margin: 18px 0;
+        }
+        .gdpr-box strong { color: #4a2090; display: block; margin-bottom: 6px; }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 18px 0;
+            font-size: 0.9em;
+        }
+        .data-table th {
+            background: var(--rose-soft);
+            color: var(--rose);
+            font-weight: 600;
+            padding: 12px 14px;
+            text-align: left;
+            border: 1px solid var(--border);
+        }
+        .data-table td {
+            padding: 11px 14px;
+            border: 1px solid var(--border);
+            color: var(--text-mid);
+            vertical-align: top;
+        }
+        .data-table tr:nth-child(even) td { background: var(--rose-pale); }
+
+        .contact-box {
+            background: var(--rose-pale);
+            border: 1px solid var(--rose-light);
+            border-radius: 14px;
+            padding: 24px 28px;
+            margin-top: 32px;
+        }
+        .contact-box h3 { margin-top: 0; color: var(--rose); }
+        .contact-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+            font-size: 0.93em;
+            color: var(--text-mid);
+        }
+        .contact-label { font-weight: 600; min-width: 90px; }
+
+        .doc-footer {
+            text-align: center;
+            padding: 28px;
+            color: var(--text-light);
+            font-size: 0.85em;
+        }
+        .doc-footer a { color: var(--rose); }
+
+        .toc {
+            background: var(--rose-pale);
+            border-radius: 14px;
+            padding: 22px 28px;
+            margin-bottom: 32px;
+        }
+        .toc h3 { color: var(--rose); margin-top: 0; margin-bottom: 14px; font-family: 'Playfair Display', serif; }
+        .toc ol { margin-left: 18px; }
+        .toc li { margin-bottom: 5px; font-size: 0.9em; }
+
+        @media (max-width: 640px) {
+            .content-card { padding: 28px 20px; }
+            .doc-header { padding: 36px 24px; }
+            .app-name { font-size: 2em; }
+            .meta-row { gap: 10px; }
+            .header-lang-switcher { top: 10px; right: 12px; }
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <div id="lang-switcher" style="float:right; margin:12px 18px 0 0;"></div>
-    <h1 data-i18n="header.appName">NoorBloom</h1>
-    <h2 data-i18n="header.docTitle">Privacy Policy</h2>
-  </header>
+<div class="page-wrapper">
 
-  <main id="i18n-content">
-    <!-- translation JSON `content` will be injected here -->
-    <p data-i18n="intro.p">Loading…</p>
-  </main>
+    <div class="doc-header">
+        <nav class="header-lang-switcher" aria-label="Language">
+            <a href="/en/privacy" class="active" lang="en">EN</a>
+            <a href="/tr/privacy" lang="tr">TR</a>
+            <a href="/ru/privacy" lang="ru">RU</a>
+        </nav>
+        <div class="app-name">NoorBloom</div>
+        <div class="doc-title">Privacy Policy</div>
+        <div class="meta-row">
+            <span class="meta-badge">Effective: February 13, 2026</span>
+            <span class="meta-badge">Version 2.0</span>
+            <span class="meta-badge">GDPR &#183; CCPA &#183; KVKK</span>
+        </div>
+    </div>
 
-  <footer>
-    <p>Contact: <a id="support-email" data-i18n="contact.support" data-i18n-html></a> <span class="badge" data-i18n="contact.badgeSupport">User Support</span></p>
-    <p><a href="/en/terms">← Terms &amp; Conditions</a></p>
-  </footer>
+    <div class="critical-notice">
+        <div class="notice-title">&#9888;&#65039; Important Notice Regarding Sensitive Personal Data</div>
+        <p>By using NoorBloom, your use of the app <strong>may reveal or allow inference of your Islamic faith and religious practices</strong>. Under the EU General Data Protection Regulation (GDPR) Article 9 and Turkish KVKK Article 6, data revealing religious beliefs constitutes a <strong>special category of personal data</strong> subject to heightened protection. We collect and process this data only with your explicit consent, as further described in this Policy. If you object to this inference, please discontinue use of the app.</p>
+    </div>
 
-  <script src="/assets/js/i18n.js"></script>
+    <div class="content-card">
+
+        <div class="toc">
+            <h3>Contents</h3>
+            <ol>
+                <li><a href="#collect">Information We Collect</a></li>
+                <li><a href="#sensitive">Sensitive Data Categories</a></li>
+                <li><a href="#ai">AI-Powered Features &amp; Data Processing</a></li>
+                <li><a href="#use">How We Use Your Information</a></li>
+                <li><a href="#share">How We Share Information</a></li>
+                <li><a href="#third-party">Third-Party Services</a></li>
+                <li><a href="#security">Data Security</a></li>
+                <li><a href="#retention">Data Retention &amp; Deletion</a></li>
+                <li><a href="#rights">Your Privacy Rights</a></li>
+                <li><a href="#children">Children&#8217;s Privacy</a></li>
+                <li><a href="#transfers">International Data Transfers</a></li>
+                <li><a href="#gdpr">Additional Rights: EEA / UK / Switzerland</a></li>
+                <li><a href="#california">Additional Rights: California (CCPA)</a></li>
+                <li><a href="#kvkk">Additional Rights: Turkey (KVKK)</a></li>
+                <li><a href="#changes">Changes to This Policy</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ol>
+        </div>
+
+        <p>NoorBloom (&#8220;we&#8221;, &#8220;us&#8221;, or &#8220;our&#8221;) operates the NoorBloom mobile application (the &#8220;App&#8221;). We are committed to protecting your privacy, particularly given the deeply personal and faith-based nature of our services. This Privacy Policy explains what personal data we collect, why we collect it, how we use and protect it, and your rights over it.</p>
+
+        <p>By downloading or using NoorBloom, you agree to the collection and use of information as described in this Policy. Where applicable law requires consent as the legal basis, your continued use constitutes consent only after you have been presented with the required consent mechanism.</p>
+
+        <!-- SECTION 1 -->
+        <h2 id="collect">1. Information We Collect</h2>
+
+        <h3>1.1 Account Information</h3>
+        <p>When you create a NoorBloom account, we collect:</p>
+        <ul>
+            <li><strong>Email address</strong> &#8212; used to authenticate your account and send service communications.</li>
+            <li><strong>Display name</strong> &#8212; used to personalize your experience (e.g., greeting you and customizing duas).</li>
+            <li><strong>Encrypted password</strong> &#8212; stored as a one-way hash; never accessible in plain text by us or any third party.</li>
+            <li><strong>Authentication token from Apple or Google</strong> &#8212; if you use Sign In with Apple or Sign In with Google, we receive only a unique identifier; we do not receive your Apple or Google password.</li>
+            <li><strong>Subscription status</strong> &#8212; to determine which features you are entitled to access.</li>
+        </ul>
+
+        <div class="alert-box">
+            <strong>Sign In with Apple</strong>
+            If you choose to hide your email address via Apple&#8217;s private relay, we respect and honor this choice. We will never attempt to identify or link a hidden Apple email to your real identity.
+        </div>
+
+        <h3>1.2 Location Data</h3>
+        <p>We request access to your device location <strong>only</strong> for two specific religious features:</p>
+        <ul>
+            <li><strong>Prayer Times</strong> &#8212; to calculate accurate Fajr, Sunrise, Dhuhr, Asr, Maghrib, and Isha times for your location.</li>
+            <li><strong>Qibla Compass</strong> &#8212; to determine the direction of the Kaaba relative to your position.</li>
+        </ul>
+        <div class="commitment-box">
+            <strong>&#10003; Our Location Commitment</strong>
+            Your precise location coordinates are <strong>used only in-app at the time of your request</strong> to compute prayer times and Qibla direction. We do <strong>not</strong> store a history of your location on our servers. We do <strong>not</strong> sell, share, or use your location for advertising, tracking, or any surveillance purpose whatsoever.
+        </div>
+
+        <h3>1.3 Content You Create</h3>
+        <ul>
+            <li><strong>Dua requests</strong> &#8212; when you use &#8220;Dua for Loved Ones,&#8221; you enter a name and context (e.g., &#8220;Zehra &#8212; exam motivation&#8221;). This text is sent to our AI backend to generate a personalized dua. This input is <strong>not retained on our servers after generation</strong>.</li>
+            <li><strong>Affirmation mood selections</strong> &#8212; your selected mood (e.g., Happy, Sad, Anxious) is used to retrieve relevant Islamic affirmations. See Section 2 for sensitive data treatment.</li>
+            <li><strong>Reflections Diary entries</strong> &#8212; your diary entries are written and <strong>stored locally on your device only</strong>. We do not proactively upload your diary to our servers.<br><br><em>Important qualification regarding AI Reflection:</em> If you choose to tap the AI reflection button for a specific diary entry, the text of that entry is transmitted to our AI service to generate an Islamic reflection. This transmission is <strong>user-initiated, one-time, and the text is immediately discarded</strong> by our service upon returning the reflection. It is never stored, indexed, or associated with your identity on our servers.</li>
+        </ul>
+
+        <h3>1.4 Usage and Analytics Data</h3>
+        <p>To understand how the app is used and improve it, we collect automatically:</p>
+        <ul>
+            <li>Features accessed and frequency of use</li>
+            <li>App version, device type, operating system, and language</li>
+            <li>Session duration and navigation patterns (anonymous)</li>
+            <li>Crash reports and error logs</li>
+            <li>In-app purchase events (subscription activation, renewal)</li>
+        </ul>
+        <p>This data is collected via Firebase Analytics and Firebase Crashlytics and is <strong>pseudonymized or aggregated</strong> before analysis. It is not linked to your identity without separate disclosure.</p>
+
+        <h3>1.5 Payment Information</h3>
+        <p>All payments for NoorBloom Premium are processed exclusively through Apple&#8217;s App Store. <strong>We do not collect, store, or have access to your credit card or payment details.</strong> Apple&#8217;s payment processing is governed by Apple&#8217;s own privacy policy and terms.</p>
+
+        <!-- SECTION 2 -->
+        <h2 id="sensitive">2. Sensitive Data Categories</h2>
+
+        <p>Certain data we process falls into legally protected &#8220;special categories&#8221; that require heightened care and, in most jurisdictions, your <strong>explicit consent</strong> before we may process them.</p>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Data Type</th>
+                    <th>Why It&#8217;s Sensitive</th>
+                    <th>How We Handle It</th>
+                    <th>Legal Basis</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Religious Belief Data</strong><br><small>Inferred from use of Islamic features</small></td>
+                    <td>GDPR Art. 9(1); KVKK Art. 6</td>
+                    <td>Used solely to power Islamic features. Never sold. Never shared with advertisers.</td>
+                    <td>Explicit consent (GDPR Art. 9(2)(a)); performance of contract</td>
+                </tr>
+                <tr>
+                    <td><strong>Emotional / Mental Health Data</strong><br><small>Mood selections in Affirmations</small></td>
+                    <td>Health-adjacent data; reveals psychological state</td>
+                    <td>Used only to retrieve relevant affirmations in-session. Not stored beyond session.</td>
+                    <td>Explicit consent at onboarding; can be withdrawn at any time</td>
+                </tr>
+                <tr>
+                    <td><strong>Personal Diary Content</strong><br><small>Reflections Diary entries</small></td>
+                    <td>Highly personal intimate thoughts</td>
+                    <td>Stored locally on device only. Never uploaded unless AI reflection requested.</td>
+                    <td>User-initiated action; explicit consent for AI processing</td>
+                </tr>
+                <tr>
+                    <td><strong>Third-Party Personal Data</strong><br><small>Names in &#8220;Dua for Loved Ones&#8221;</small></td>
+                    <td>Personal data of individuals who have not consented</td>
+                    <td>Used only to generate the requested dua. Not stored.</td>
+                    <td>User&#8217;s responsibility; our processing is strictly transient</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="alert-box">
+            <strong>Your Responsibility for Third-Party Data</strong>
+            When you enter another person&#8217;s name and personal circumstances into the Dua for Loved Ones feature, you are the data controller for that individual&#8217;s data. Please ensure you have permission to share another person&#8217;s personal details with our service.
+        </div>
+
+        <!-- SECTION 3 -->
+        <h2 id="ai">3. AI-Powered Features &amp; Data Processing</h2>
+
+        <p>NoorBloom uses artificial intelligence to power three features. We are committed to full transparency about how your data is used in these features.</p>
+
+        <h3>3.1 Dua Generator (AI)</h3>
+        <ul>
+            <li><strong>Input:</strong> Name of the person the dua is for; context you provide.</li>
+            <li><strong>Processing:</strong> Input is sent to our AI service to generate a personalized Islamic supplication.</li>
+            <li><strong>Retention:</strong> Input data is <strong>not stored</strong> on our servers after generation.</li>
+            <li><strong>AI Training:</strong> Your dua inputs are <strong>not used to train AI models</strong> without separate explicit opt-in consent.</li>
+        </ul>
+
+        <h3>3.2 Reflections Diary AI</h3>
+        <ul>
+            <li><strong>Input:</strong> When you tap the AI reflection button, you share the entry focus and your diary text with our AI service.</li>
+            <li><strong>Processing:</strong> The text is processed to generate an Islamic reflection enriched with Quran and Hadith.</li>
+            <li><strong>Retention:</strong> Diary text shared for AI reflection is <strong>immediately discarded</strong> upon returning the reflection.</li>
+            <li><strong>Default:</strong> Diary entries not shared for AI reflection are never transmitted from your device.</li>
+        </ul>
+
+        <h3>3.3 Affirmations (AI-Assisted)</h3>
+        <ul>
+            <li>Your mood selection is used to retrieve relevant affirmations.</li>
+            <li>Mood selections are <strong>not stored</strong> linked to your long-term profile beyond the current session.</li>
+        </ul>
+
+        <div class="commitment-box">
+            <strong>&#10003; Our AI Commitment</strong>
+            We do not use your personal spiritual data, diary entries, or emotional state to train AI models without your separate and explicit consent. If we ever consider this in the future, we will ask for your opt-in at that time.
+        </div>
+
+        <!-- SECTION 4 -->
+        <h2 id="use">4. How We Use Your Information</h2>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Purpose</th>
+                    <th>Legal Basis (GDPR)</th>
+                    <th>Data Used</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Provide and maintain the App</td><td>Performance of contract (Art. 6(1)(b))</td><td>Account info, location, content, usage data</td></tr>
+                <tr><td>Authenticate your account</td><td>Performance of contract (Art. 6(1)(b))</td><td>Email, password hash, authentication token</td></tr>
+                <tr><td>Personalize your experience</td><td>Consent (Art. 6(1)(a)); legitimate interest</td><td>Name, usage patterns, content preferences</td></tr>
+                <tr><td>Process subscription payments</td><td>Performance of contract (Art. 6(1)(b))</td><td>Subscription status via Apple</td></tr>
+                <tr><td>Send prayer time notifications</td><td>Consent (Art. 6(1)(a))</td><td>Location, push token</td></tr>
+                <tr><td>Improve app performance and fix bugs</td><td>Legitimate interest (Art. 6(1)(f))</td><td>Crash logs, aggregated usage data</td></tr>
+                <tr><td>Process religious/mood sensitive data</td><td>Explicit consent (Art. 9(2)(a))</td><td>Mood selections, dua inputs, shared diary text</td></tr>
+                <tr><td>Comply with legal obligations</td><td>Legal obligation (Art. 6(1)(c))</td><td>Account info, transaction records</td></tr>
+                <tr><td>Notify you of material policy changes</td><td>Legal obligation / legitimate interest</td><td>Email address</td></tr>
+            </tbody>
+        </table>
+
+        <h3>We Do NOT Use Your Data For:</h3>
+        <ul>
+            <li>Targeted or behavioral advertising</li>
+            <li>Selling your data to third parties, data brokers, or marketers</li>
+            <li>Profiling based on your religious practices</li>
+            <li>Government surveillance or intelligence purposes (except when legally compelled)</li>
+            <li>Any purpose beyond what is described in this Policy</li>
+        </ul>
+
+        <div class="alert-box">
+            <strong>App Store Privacy &#8220;Nutrition Labels&#8221; &#8212; Reference Guide</strong>
+            <strong>Data Linked to You:</strong> Contact Info (email); Identifiers (Firebase user ID); Purchase History (subscription status); Usage Data.<br>
+            <strong>Data Not Linked to You:</strong> Diagnostics (crash logs); Analytics (anonymous metrics); Approximate Location.<br>
+            <strong>Data Not Collected:</strong> Health &amp; Fitness; Financial Info; Browsing History; Contacts; Messages.<br>
+            <strong>Sensitive Mood Data:</strong> Collected in-session only, not stored linked to your identity.
+        </div>
+
+        <!-- SECTION 5 -->
+        <h2 id="share">5. How We Share Information</h2>
+
+        <p>We do not sell, rent, or trade your personal data. We share your information only in the following limited circumstances:</p>
+
+        <h3>5.1 Service Providers (Data Processors)</h3>
+        <ul>
+            <li><strong>Google Firebase</strong> &#8212; authentication, cloud database, analytics, crash reporting (US-based; SCCs in place)</li>
+            <li><strong>Apple Inc.</strong> &#8212; payment processing, Sign In with Apple authentication</li>
+            <li><strong>AI Processing Provider</strong> &#8212; temporary processing of dua and diary inputs (data not retained post-generation)</li>
+        </ul>
+
+        <h3>5.2 Legal Requirements</h3>
+        <p>We may disclose your data if required by law, court order, or governmental authority.</p>
+
+        <h3>5.3 Business Transfers</h3>
+        <p>In the event of a merger, acquisition, or sale of assets, your data may be transferred to the successor entity with advance notice.</p>
+
+        <h3>5.4 With Your Consent</h3>
+        <p>For any sharing not covered above, we will ask for your explicit consent.</p>
+
+        <div class="commitment-box">
+            <strong>&#10003; We Will Never Share Your Data With:</strong>
+            Data brokers &#183; Advertisers &#183; Political organizations &#183; Government intelligence agencies (absent a lawful order) &#183; Marketing companies &#183; Any entity that will use it contrary to this Policy
+        </div>
+
+        <!-- SECTION 6 -->
+        <h2 id="third-party">6. Third-Party Services</h2>
+
+        <h3>6.1 Firebase by Google</h3>
+        <p>Firebase provides authentication, cloud database (Firestore), analytics, and crash reporting. Firebase is certified under SOC 2 and ISO 27001.</p>
+        <p>Firebase Privacy: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">https://firebase.google.com/support/privacy</a></p>
+
+        <h3>6.2 Sign In with Apple</h3>
+        <p>Apple provides a unique identifier. If you hide your email, Apple&#8217;s private relay manages the email.</p>
+
+        <h3>6.3 Sign In with Google</h3>
+        <p>Google provides your email and basic profile information.</p>
+
+        <h3>6.4 Apple In-App Purchases</h3>
+        <p>Payment is handled entirely by Apple. We receive only confirmation of purchase and subscription status.</p>
+
+        <!-- SECTION 7 -->
+        <h2 id="security">7. Data Security</h2>
+        <p>We implement industry-standard technical and organisational security measures:</p>
+        <ul>
+            <li>All data in transit is encrypted using TLS 1.2 or higher</li>
+            <li>Passwords are stored as one-way cryptographic hashes (bcrypt)</li>
+            <li>Firebase data is encrypted at rest (AES-256)</li>
+            <li>Diary entries never leave your device in unencrypted form</li>
+            <li>Access to production systems is on a strict need-to-know basis</li>
+            <li>Regular security reviews of third-party integrations</li>
+        </ul>
+        <p>While we implement these measures, no method of transmission over the Internet is 100% secure. In the event of a data breach, we will notify you and relevant supervisory authorities within required timeframes.</p>
+
+        <!-- SECTION 8 -->
+        <h2 id="retention">8. Data Retention &amp; Deletion</h2>
+
+        <h3>8.1 Retention Periods</h3>
+        <table class="data-table">
+            <thead><tr><th>Data Type</th><th>Retention Period</th></tr></thead>
+            <tbody>
+                <tr><td>Account information</td><td>Until account deletion + 30 days</td></tr>
+                <tr><td>Reflections Diary entries</td><td>Device-only; deleted when you delete the app or your account</td></tr>
+                <tr><td>Dua inputs (AI processing)</td><td>Immediately discarded after generation</td></tr>
+                <tr><td>Mood selections</td><td>Session only; not persisted to server</td></tr>
+                <tr><td>Firebase Analytics (anonymous)</td><td>Up to 14 months; then aggregated/deleted</td></tr>
+                <tr><td>Crash logs</td><td>90 days</td></tr>
+                <tr><td>Transaction records</td><td>As required by applicable law (typically 5&#8211;7 years)</td></tr>
+            </tbody>
+        </table>
+
+        <h3>8.2 How to Delete Your Account</h3>
+        <p>You may delete your account at any time:</p>
+        <ol>
+            <li>Open NoorBloom &#8594; <strong>Profile</strong></li>
+            <li>Tap <strong>Settings</strong></li>
+            <li>Select <strong>Delete Account</strong></li>
+            <li>Confirm deletion</li>
+        </ol>
+        <p>All personal data will be permanently erased within <strong>30 days</strong>, except where retention is required by law. Alternatively, email <a href="mailto:noorbloomapp@gmail.com">noorbloomapp@gmail.com</a>.</p>
+
+        <!-- SECTION 9 -->
+        <h2 id="rights">9. Your Privacy Rights</h2>
+        <p>Subject to applicable law, you have the following rights:</p>
+        <ul>
+            <li><strong>Access:</strong> Request a copy of the personal data we hold about you.</li>
+            <li><strong>Correction:</strong> Request correction of inaccurate or incomplete data.</li>
+            <li><strong>Erasure:</strong> Request deletion of your data.</li>
+            <li><strong>Data Portability:</strong> Receive your data in a portable format (JSON or CSV).</li>
+            <li><strong>Withdraw Consent:</strong> Withdraw any consent at any time.</li>
+            <li><strong>Object to Processing:</strong> Object to processing based on legitimate interests.</li>
+            <li><strong>Restrict Processing:</strong> Request restriction in certain circumstances.</li>
+            <li><strong>Opt Out:</strong> Disable location, notifications, or analytics through device Settings.</li>
+        </ul>
+        <p>Contact: <a href="mailto:noorbloomapp@gmail.com">noorbloomapp@gmail.com</a>. Response within 30 days (extendable to 90 for complex requests).</p>
+
+        <!-- SECTION 10 -->
+        <h2 id="children">10. Children&#8217;s Privacy</h2>
+        <p>NoorBloom is intended for users aged <strong>13 and older</strong>. We do not knowingly collect personal information from children under 13. If you are a parent and believe your child has provided data, contact us at <a href="mailto:noorbloomapp@gmail.com">noorbloomapp@gmail.com</a> and we will delete it promptly.</p>
+
+        <!-- SECTION 11 -->
+        <h2 id="transfers">11. International Data Transfers</h2>
+        <p>Your data may be transferred to and processed in the <strong>United States</strong> (Firebase/Google Cloud). We safeguard such transfers by:</p>
+        <ul>
+            <li><strong>EU/EEA/UK users:</strong> Standard Contractual Clauses (SCCs) with Firebase/Google.</li>
+            <li><strong>Turkish users:</strong> KVKK Article 9 compliance, including explicit consent.</li>
+            <li><strong>All users:</strong> Service providers certified under SOC 2 and ISO 27001.</li>
+        </ul>
+
+        <!-- SECTION 12 -->
+        <h2 id="gdpr">12. Additional Rights &#8212; EEA, UK, Switzerland (GDPR)</h2>
+
+        <h3>12.1 Data Controller</h3>
+        <p>The data controller is the company operating NoorBloom as identified in the Contact section.</p>
+
+        <h3>12.2 Additional Rights</h3>
+        <ul>
+            <li><strong>Right to Object</strong> (Article 6(1)(f)) at any time.</li>
+            <li><strong>Right to Restrict Processing</strong> (Article 18 GDPR).</li>
+            <li><strong>Right to Lodge a Complaint</strong> with your national supervisory authority: <a href="https://edpb.europa.eu/about-edpb/board/members_en" target="_blank" rel="noopener">edpb.europa.eu</a></li>
+        </ul>
+
+        <div class="gdpr-box">
+            <strong>GDPR Art. 9 &#8212; Explicit Consent for Sensitive Data: How It Works</strong><br><br>
+            Before processing your religious and emotional/mental health data, we obtain explicit consent through a dedicated consent screen at onboarding. This screen:
+            <ul style="margin:8px 0; padding-left:20px;">
+                <li>Identifies the specific types of sensitive data</li>
+                <li>Explains the purpose of processing</li>
+                <li>Provides clear Yes/Consent and No/Decline options (no pre-ticked boxes)</li>
+                <li>Explains that declining limits certain features but does not prevent basic use</li>
+            </ul>
+            <strong>Withdrawing consent:</strong> Via Profile &#8594; Settings &#8594; Privacy Preferences &#8594; Manage Consent, or email <a href="mailto:noorbloomapp@gmail.com">noorbloomapp@gmail.com</a>.
+        </div>
+
+        <!-- SECTION 13 -->
+        <h2 id="california">13. Additional Rights &#8212; California (CCPA / CPRA)</h2>
+        <ul>
+            <li><strong>Right to Know:</strong> Request info about categories and specific pieces of personal information collected.</li>
+            <li><strong>Right to Delete:</strong> Request deletion of your personal information.</li>
+            <li><strong>Right to Correct:</strong> Request correction of inaccurate information.</li>
+            <li><strong>Right to Opt Out:</strong> We do not sell personal information or share it for cross-context behavioral advertising.</li>
+            <li><strong>Right to Limit Sensitive Data:</strong> Limit use of sensitive personal information.</li>
+            <li><strong>Non-Discrimination:</strong> We will not discriminate for exercising these rights.</li>
+        </ul>
+        <p>Contact: <a href="mailto:noorbloomapp@gmail.com">noorbloomapp@gmail.com</a> with &#8220;California Privacy Request&#8221; in the subject line.</p>
+
+        <!-- SECTION 14 -->
+        <h2 id="kvkk">14. Additional Rights &#8212; Turkey (KVKK)</h2>
+        <ul>
+            <li>Data controller: the operator of NoorBloom identified in the Contact section.</li>
+            <li>Religious belief data: special category under KVKK Article 6, processed only with <strong>explicit consent</strong>.</li>
+            <li>KVKK Article 11 rights: learn whether data is processed; request information; request correction, deletion, or destruction; object to adverse outcomes from automated processing.</li>
+            <li>Contact: <a href="mailto:noorbloomlegal@gmail.com">noorbloomlegal@gmail.com</a></li>
+            <li>International transfer: per KVKK Article 9 with your explicit consent.</li>
+        </ul>
+
+        <!-- SECTION 15 -->
+        <h2 id="changes">15. Changes to This Privacy Policy</h2>
+        <p>We may update this Policy periodically. We will notify you of material changes by:</p>
+        <ul>
+            <li>Posting an in-app notification</li>
+            <li>Sending an email to your registered address</li>
+            <li>Updating the &#8220;Effective Date&#8221; at the top</li>
+        </ul>
+        <p>If changes require fresh consent, we will present a new consent request.</p>
+
+        <!-- SECTION 16 -->
+        <h2 id="contact">16. Contact Us</h2>
+
+        <div class="contact-box">
+            <h3>Privacy Inquiries</h3>
+            <div class="contact-row"><span class="contact-label">Email:</span> <a href="mailto:noorbloomapp@gmail.com">noorbloomapp@gmail.com</a><span style="background:#fde8ef; color:#c03060; font-size:0.75em; font-weight:600; padding:2px 8px; border-radius:20px; margin-left:8px;">User Support</span></div>
+            <div class="contact-row"><span class="contact-label">KVKK:</span> <a href="mailto:noorbloomlegal@gmail.com">noorbloomlegal@gmail.com</a><span style="background:#fde8ef; color:#c03060; font-size:0.75em; font-weight:600; padding:2px 8px; border-radius:20px; margin-left:8px;">Legal &amp; Privacy</span></div>
+            <div class="contact-row"><span class="contact-label">Website:</span> <a href="https://noorbloom.org/en/privacy" target="_blank">https://noorbloom.org/en/privacy</a></div>
+        </div>
+
+    </div>
+
+    <div class="doc-footer">
+        <p style="margin:0;">Last updated: <strong>February 13, 2026</strong> &#183; Version 2.0</p>
+        <p style="margin:8px 0 0 0;"><a href="/en/terms">&#8592; Terms &amp; Conditions</a></p>
+    </div>
+
+</div>
+
+<script>
+(function() {
+    window.noorbloomPrivacyStaticLoaded = true;
+    var contentCheck = setTimeout(function() {
+        var wrapper = document.querySelector('.page-wrapper');
+        if (wrapper && wrapper.innerText.trim().length < 200) {
+            window.location.reload();
+        }
+    }, 5000);
+    window.__noorbloomFallbackTimer = contentCheck;
+})();
+</script>
 </body>
 </html>

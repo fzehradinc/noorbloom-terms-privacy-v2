@@ -4,3 +4,40 @@
 
 [context.production.environment]
   NODE_VERSION = "16"
+
+# Ensure /en/terms serves the static index.html (Netlify does this by default
+# for /en/terms/index.html, but these rewrites make it explicit and handle
+# trailing-slash variants)
+[[redirects]]
+  from = "/en/terms/"
+  to = "/en/terms/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/tr/terms/"
+  to = "/tr/terms/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/ru/terms/"
+  to = "/ru/terms/index.html"
+  status = 200
+
+# Cache static legal pages for 1 hour, revalidate after
+[[headers]]
+  for = "/en/terms/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, stale-while-revalidate=86400"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/tr/terms/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, stale-while-revalidate=86400"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/ru/terms/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, stale-while-revalidate=86400"
+    X-Content-Type-Options = "nosniff"
