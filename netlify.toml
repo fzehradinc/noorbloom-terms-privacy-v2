@@ -39,6 +39,12 @@
   to = "/ru/privacy/index.html"
   status = 200
 
+# Links hub page rewrite
+[[redirects]]
+  from = "/links"
+  to = "/links/index.html"
+  status = 200
+
 # Cache static legal pages for 1 hour, revalidate after
 [[headers]]
   for = "/en/terms/*"
